@@ -1,0 +1,17 @@
+site_name: "Eli Morales Cinta — Technical Author Portfolio"
+site_description: "Diataxis-style documentation samples (tutorial, how-to, reference, explanation)"
+repo_name: "elimrls/technical-author-portfolio"
+
+nav:
+  - Home: index.md
+  - Diátaxis:
+      - Tutorials: tutorials/getting-started.md
+      - How-to: howto/write-functional-spec.md
+      - Reference: reference/functional-spec-template.md
+      - Explanations: explanations/diataxis.md
+
+theme:
+  name: material
+
+extra_css:
+  - styles/fix-list-code.css
