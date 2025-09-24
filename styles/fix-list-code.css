@@ -1,0 +1,11 @@
+/* Force multiline code blocks inside list items to behave correctly */
+li > p > code {
+  white-space: pre-wrap !important;
+  display: block !important;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background: var(--md-code-bg-color);
+  padding: 1em;
+  border-radius: 4px;
+  font-family: var(--md-code-font-family);
+}
