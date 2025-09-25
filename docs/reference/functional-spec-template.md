@@ -8,10 +8,7 @@ Use this template as a reference when writing functional specifications for soft
 
 Provide a short, descriptive title for the feature or component.
 
-```text
-Example:
-Password Reset via Email
-```
+> Example: Password Reset via Email
 
 ---
 
@@ -19,9 +16,7 @@ Password Reset via Email
 
 Summarize the purpose and scope of the feature in 2–3 sentences.
 
-```text
-This feature allows users to reset their password using a secure email link. It applies to all registered users who have forgotten their login credentials.
-```
+> This feature allows users to reset their password using a secure email link. It applies to all registered users who have forgotten their login credentials.
 
 ---
 
@@ -29,9 +24,7 @@ This feature allows users to reset their password using a secure email link. It 
 
 Use the following format to describe the main user goal.
 
-```text
-As a [user type], I want to [do something] so that [desired outcome].
-```
+> As a [user type], I want to [do something] so that [desired outcome].
 
 ---
 
@@ -39,7 +32,6 @@ As a [user type], I want to [do something] so that [desired outcome].
 
 List the key behaviors the feature must support. These should be clear, specific, and testable.
 
-```text
-- Display a “Forgot Password?” link on the login screen.
+> - Display a “Forgot Password?” link on the login screen.
 - Prompt the user to enter their email address.
 - Send a password
